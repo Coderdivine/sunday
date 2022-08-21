@@ -1,0 +1,36 @@
+html{
+    box-sizing:border-box;
+    background:grey;
+}
+.centered_text{
+ text-align:center;
+ padding:2px 3px;
+ margin:2px;
+ font-size:bolder;
+ color:grey;
+ font-family:sans-serif;
+}
+.center{
+    text-align:center;
+    padding:12px 19px;
+    margin:2px;
+    justify-content:center;
+    align-items:center;
+    background: white;
+    border:1px solid grey;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.btn{
+ padding:8px 19px;
+ margin:4px 4px;
+ font-size:bold;
+ text-align:center;
+ color:grey;
+ background:red;
+ border-radius:0px;
+ border:2.1px solid grey;
+ cursor:pointer;
+}
